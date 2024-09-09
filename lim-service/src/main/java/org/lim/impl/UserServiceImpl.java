@@ -1,15 +1,17 @@
 package org.lim.impl;
 
-import org.lim.entity.UserEnity;
+import org.apache.dubbo.config.annotation.DubboService;
+import org.lim.entity.UserEntity;
 import org.lim.service.UserService;
 
+@DubboService
 public class UserServiceImpl implements UserService {
     /**
-     * @param enity
+     * @param entity
      * @return
      */
     @Override
-    public UserEnity queryUser(UserEnity enity) {
-        return null;
+    public UserEntity queryUser(UserEntity entity) {
+        return entity;
     }
 }

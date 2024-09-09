@@ -1,9 +1,15 @@
 dubbo:
   application:
     logger: log4j
+    name: lim-provider
+  registry:
+    address: zookeeper://localhost:2181
+  protocol:
+    name: dubbo
+    port: 20880
 
 server:
-  port:8088
+  port: 8088
 spring:
   datasource:
     driver-class-name: com.mysql.jdbc.Driver

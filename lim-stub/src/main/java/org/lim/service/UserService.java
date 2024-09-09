@@ -1,7 +1,7 @@
 package org.lim.service;
 
-import org.lim.entity.UserEnity;
+import org.lim.entity.UserEntity;
 
 public interface UserService {
-    UserEnity queryUser(UserEnity enity);
+    UserEntity queryUser(UserEntity enity);
 }

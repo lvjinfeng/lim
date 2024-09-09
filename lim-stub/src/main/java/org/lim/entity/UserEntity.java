@@ -1,6 +1,6 @@
 package org.lim.entity;
 
-public class UserEnity {
+public class UserEntity {
     private Integer userId;
     private String userName;
 
@@ -22,7 +22,7 @@ public class UserEnity {
 
     @Override
     public String toString() {
-        return "UserEnity{" +
+        return "UserEntity{" +
                 "userId=" + userId +
                 ", userName='" + userName + '\'' +
                 '}';
